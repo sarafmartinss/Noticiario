@@ -1,0 +1,90 @@
+*body {
+    font-family: Arial, sans-serif;
+    background-color: #010814;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .topo {
+    background-color: #0d0325;
+    color: #f0eff7;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .topo h1 {
+    margin: 0;
+  }
+  
+  .menuTopo {
+    background-color: #010116;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .menuTopo ul {
+    list-style-type: none;
+  }
+  
+  .menuTopo ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menuTopo ul li a {
+    color: #bab4ee;
+    text-decoration: none;
+  }
+  
+  .menuTopo a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .menuTopo ul li:hover {
+    background-color: #606264;
+  }
+  .corpo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #010116;
+  }
+  
+  .esquerda {
+    flex: 0 0 70%;
+    color: #fffefe;
+  }
+  
+  .direita {
+    flex: 0 0 55%;
+    color: #fffefe;
+    
+  }
+  
+  .destaque {
+    background-color: #010116;
+    border-radius: 5px;
+    padding:20px;
+    margin-bottom: 20px;
+    color: #fffefe;
+   
+
+  }
+  .destaque .imagens img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+    display: block; /* Isso garante que a margem automática funcione */
+    margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
+    white-space: nowrap; /* Evita que as imagens quebrem para uma nova linha */
+  }
+  
+  footer {
+    background-color: #0d0325;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
